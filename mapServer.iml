@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$USER_HOME$/Java/mapServer/mysql-connector-java-8.0.17.jar!/" />
+    <libelement value="jar://$USER_HOME$/Desktop/Estensione/lib/javafx.base.jar!/" />
+    <libelement value="jar://$USER_HOME$/Desktop/Estensione/lib/javafx.controls.jar!/" />
+    <libelement value="jar://$USER_HOME$/Desktop/Estensione/lib/javafx.fxml.jar!/" />
+    <libelement value="jar://$USER_HOME$/Desktop/Estensione/lib/javafx.graphics.jar!/" />
+    <libelement value="jar://$USER_HOME$/Desktop/Estensione/lib/javafx.media.jar!/" />
+    <libelement value="jar://$USER_HOME$/Desktop/Estensione/lib/javafx.swing.jar!/" />
+    <libelement value="jar://$USER_HOME$/Desktop/Estensione/lib/javafx.web.jar!/" />
+    <libelement value="jar://$USER_HOME$/Desktop/Estensione/lib/javafx-swt.jar!/" />
+    <libelement value="file:///mapClient/src/utility" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="jdk" jdkName="JavaSE-13" jdkType="JavaSDK" />
+    <orderEntry type="module-library" exported="">
+      <library name="mysql-connector-java-8.0.17.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Java/mapServer/mysql-connector-java-8.0.17.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javafx.base.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/Estensione/lib/javafx.base.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javafx.controls.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/Estensione/lib/javafx.controls.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javafx.fxml.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/Estensione/lib/javafx.fxml.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javafx.graphics.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/Estensione/lib/javafx.graphics.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javafx.media.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/Estensione/lib/javafx.media.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javafx.swing.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/Estensione/lib/javafx.swing.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javafx.web.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/Estensione/lib/javafx.web.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javafx-swt.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/Estensione/lib/javafx-swt.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="utility">
+        <CLASSES>
+          <root url="file:///mapClient/src/utility" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="mysql-connector-java-8.0.17" level="project" />
+  </component>
+</module>
