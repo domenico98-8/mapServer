@@ -10,7 +10,7 @@ import server.MultiServer;
 
 @SuppressWarnings("serial")
 public class MainTest implements Serializable{
-	//Pattyyyyyyyyy
+	//DOMY
 	private static int port=8080;
 	/**
 	 * @param args
