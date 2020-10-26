@@ -1,7 +1,7 @@
 package data;
 
 /**
- * 
+ * Eccezione per gestire il caso di acquisizione errata del training set.
  * @author Alessia Laquale
  * @author Domenco Cascella
  * @author Patrizia Conte

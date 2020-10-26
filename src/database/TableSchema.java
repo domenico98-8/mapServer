@@ -10,13 +10,25 @@ import java.util.Iterator;
 import java.util.List;
 
 
-
+/**
+ * Classe che modella lo schema di una tabella nel database relazionale
+ * @author Alessia Laquale
+ * @author Domenco Cascella
+ * @author Patrizia Conte
+ */
 
 public class TableSchema implements Iterable<Column>{
-	
 
+	/**
+	 * Array che contiene lo schema modellato dalle colonne.
+	 */
 	private List<Column> tableSchema=new ArrayList<Column>();
-	
+	/**
+	 * Costruttore
+	 * @param db :database su cui creo la query
+	 * @param tableName :nome della tabella
+	 * @throws SQLException : Eccezione generata se si presentano errori durante l'interrogazione al database
+	 */
 	public TableSchema(DbAccess db, String tableName) throws SQLException{
 		
 		HashMap<String,String> mapSQL_JAVATypes=new HashMap<String, String>();
@@ -53,12 +65,19 @@ public class TableSchema implements Iterable<Column>{
 	
 	    
 	    }
-	  
-	
+
+	/**
+	 *
+	 * @return Restituisce il numero delle colonne nella tabella
+	 */
 		public int getNumberOfAttributes(){
 			return tableSchema.size();
 		}
-		
+	/**
+	 *
+	 * @param index :indice colonna
+	 * @return Restituisce la colonna specificata da indice
+	 */
 		public Column getColumn(int index){
 			return tableSchema.get(index);
 		}

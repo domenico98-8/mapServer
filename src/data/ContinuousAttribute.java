@@ -3,7 +3,7 @@ package data;
 import java.io.Serializable;
 
 /**
- * Classe che estende la classe Attribute e rappresenta un attributo continuo
+ * Estende la classe Attribute e rappresenta un attributo continuo
  * @author Alessia Laquale
  * @author Domenco Cascella
  * @author Patrizia Conte

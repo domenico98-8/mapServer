@@ -15,7 +15,12 @@ import database.DatabaseConnectionException;
 import database.EmptySetException;
 import tree.FileErratoExcpetion;
 import tree.RegressionTree;
-
+/**
+ * Gestisce le richieste di un client su un thread
+ * @author Alessia Laquale
+ * @author Domenco Cascella
+ * @author Patrizia Conte
+ */
 public class ServerOneClient extends Thread{
 	private Socket socket;
 	private ObjectInputStream in;
@@ -23,13 +28,21 @@ public class ServerOneClient extends Thread{
 	private RegressionTree tree;
 	private String tableName="";
 	private Data trainingSet;
-	
+	/**
+	 *  Inizializza gli attributi socket, in e out e avvia il thread.
+	 * @param s :Socket connessa al client
+	 * @throws IOException :Errore generato quando si verifica un errore I/O
+	 */
 	public ServerOneClient(Socket s) throws IOException {
 		socket=s;
 		in= new ObjectInputStream(socket.getInputStream());
 		out= new ObjectOutputStream(socket.getOutputStream());
 		start();
 	}
+	/**
+	 * Gestisce le richieste del client interagendo con esso
+	 */
+	@Override
 	public void run() {
 		boolean flag = false;
 		try {

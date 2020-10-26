@@ -7,6 +7,9 @@ import java.util.Set;
 import java.util.TreeSet;
 /**
  * Estende la classe Attribute e rappresenta un attributo discreto 
+ * @author Alessia Laquale
+ * @author Domenco Cascella
+ * @author Patrizia Conte
  */
 @SuppressWarnings("serial")
 public class DiscreteAttribute extends Attribute implements Iterable<String>,Serializable{
@@ -17,6 +20,7 @@ public class DiscreteAttribute extends Attribute implements Iterable<String>,Ser
 	 * @param name :nome simbolico dell'attributo
 	 * @param index :identificativo numerico dell'attributo
 	 * @param values :set di valori discreti
+	 * @see Attribute#Attribute(String, int)    
 	 */
 	public DiscreteAttribute(String name, int index, Set<String> values) {
 		super(name,index);
@@ -24,13 +28,17 @@ public class DiscreteAttribute extends Attribute implements Iterable<String>,Ser
 	}
 	
 	/**
-	 * Metodo che estituisce la cardinalità del Set Values
-	 * @return values.size()
+	 * Metodo che estituisce la cardinalitï¿½ del Set Values
+	 * @return Numero di valori discreti dell'attributo.
 	 */
 	public int getNumberOfDistinctValues(){
 		return values.size();
 	}
 
+	/**
+	 * Restituisce l'iteratore per l'insieme di valori.
+	 * @return Un iteratore per l'insieme dei valori.
+	 */
 	@Override
 	public Iterator<String> iterator() {
 		// TODO Auto-generated method stub
