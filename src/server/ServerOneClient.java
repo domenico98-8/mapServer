@@ -92,8 +92,8 @@ public class ServerOneClient extends Thread{
 					Double predizione;
 					predizione=tree.predictClass(in, out);
 					if(predizione == null) {
-						System.out.println("Scelta Non Valida! Client Disconnesso...");
-						out.defaultWriteObject();
+						System.out.println("Scelta Non Valida!");
+						out.writeObject("ERRORE");
 					}
 					else {
 						out.writeObject("OK");

@@ -10,8 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc02072b-78ed-425a-a066-3c3ad227e77b" name="Default Changelist" comment="ho scritto domy">
+    <list default="true" id="dc02072b-78ed-425a-a066-3c3ad227e77b" name="Default Changelist" comment="ho tolto il commento">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/ServerOneClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ServerOneClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javafx-sdk-11.0.2/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Grafica" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -81,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603549554490</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ho tolto il commento">
+      <created>1603550712264</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603550712264</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,7 +108,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ciao ciao" />
     <MESSAGE value="ho scritto domy" />
-    <option name="LAST_COMMIT_MESSAGE" value="ho scritto domy" />
+    <MESSAGE value="ho tolto il commento" />
+    <option name="LAST_COMMIT_MESSAGE" value="ho tolto il commento" />
   </component>
   <component name="WindowStateProjectService">
     <state x="520" y="236" key="#Notifications" timestamp="1603356526108">
@@ -114,50 +124,50 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="427" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1603437908050" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603476290062">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603643863240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603476290062" />
-    <state width="723" height="262" key="GridCell.Tab.0.bottom" timestamp="1603441141496">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603643863240" />
+    <state width="741" height="200" key="GridCell.Tab.0.bottom" timestamp="1603649910464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="262" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603441141496" />
-    <state width="723" height="262" key="GridCell.Tab.0.center" timestamp="1603441141496">
+    <state width="741" height="200" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603649910464" />
+    <state width="741" height="200" key="GridCell.Tab.0.center" timestamp="1603649910464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="262" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603441141496" />
-    <state width="723" height="262" key="GridCell.Tab.0.left" timestamp="1603441141495">
+    <state width="741" height="200" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603649910464" />
+    <state width="741" height="200" key="GridCell.Tab.0.left" timestamp="1603649910464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="262" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603441141495" />
-    <state width="723" height="262" key="GridCell.Tab.0.right" timestamp="1603441141496">
+    <state width="741" height="200" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603649910464" />
+    <state width="741" height="200" key="GridCell.Tab.0.right" timestamp="1603649910464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="262" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603441141496" />
-    <state width="723" height="262" key="GridCell.Tab.1.bottom" timestamp="1603441141497">
+    <state width="741" height="200" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603649910464" />
+    <state width="741" height="200" key="GridCell.Tab.1.bottom" timestamp="1603649910464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="262" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603441141497" />
-    <state width="723" height="262" key="GridCell.Tab.1.center" timestamp="1603441141497">
+    <state width="741" height="200" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603649910464" />
+    <state width="741" height="200" key="GridCell.Tab.1.center" timestamp="1603649910464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="262" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603441141497" />
-    <state width="723" height="262" key="GridCell.Tab.1.left" timestamp="1603441141496">
+    <state width="741" height="200" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603649910464" />
+    <state width="741" height="200" key="GridCell.Tab.1.left" timestamp="1603649910464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="262" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603441141496" />
-    <state width="723" height="262" key="GridCell.Tab.1.right" timestamp="1603441141497">
+    <state width="741" height="200" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603649910464" />
+    <state width="741" height="200" key="GridCell.Tab.1.right" timestamp="1603649910464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="262" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603441141497" />
+    <state width="741" height="200" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603649910464" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1603476308990">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603476308990" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603550071147">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603550716896">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603550071147" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603550716896" />
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603549702937">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -194,29 +204,74 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
-          <line>98</line>
-          <option name="timeStamp" value="26" />
+          <url>file://$PROJECT_DIR$/src/tree/RegressionTree.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
-          <line>93</line>
-          <option name="timeStamp" value="27" />
+          <url>file://$PROJECT_DIR$/src/tree/RegressionTree.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/RegressionTree.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/RegressionTree.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/RegressionTree.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
           <line>92</line>
-          <option name="timeStamp" value="28" />
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="31" />
+          <line>93</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
-          <line>89</line>
-          <option name="timeStamp" value="32" />
+          <line>94</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
