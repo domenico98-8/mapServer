@@ -28,7 +28,7 @@ public class Keyboard implements Serializable {
 
 	/**
 	 * Resets the current error count to zero
-	 * @param count
+	 * @param count  :
 	 */
 	public static void resetErrorCount(int count) {
 		errorCount = 0;
@@ -46,7 +46,7 @@ public class Keyboard implements Serializable {
 
 	/**
 	 * Sets a boolean indicating whether input errors are to be printed to standard output.
-	 * @param flag
+	 * @param flag  :
 	 */
 	public static void setPrintErrors(boolean flag) {
 		printErrors = flag;
