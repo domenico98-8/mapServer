@@ -113,9 +113,10 @@ public class ServerOneClient extends Thread{
 						out.writeObject(predizione);
 						
 					}
+				}else{
+					run();
 				}
 			}while(((Integer)SceltaClient).intValue()==3);
-		
 			
 		} catch(IOException e) {
 			System.out.println("In Attesa di connessione...");

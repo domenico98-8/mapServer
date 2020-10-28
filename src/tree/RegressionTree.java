@@ -11,7 +11,6 @@ import java.util.TreeSet;
 
 import data.*;
 import server.UnknownValueException;
-import utility.Keyboard;
 
 
 /**
@@ -22,7 +21,7 @@ import utility.Keyboard;
  *
  */
 @SuppressWarnings("serial")
-public class RegressionTree extends Keyboard implements Serializable{
+public class RegressionTree implements Serializable{
 	/**
 	 * Radice del sotto-albero corrente
 	 */
