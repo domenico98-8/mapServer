@@ -10,14 +10,14 @@ package database;
 public class DatabaseConnectionException extends Exception{
 
 	/**
-	 * costruttore di DatabaseConnectionException che richiama il costruttore di Ecxeption
+	 * costruttore di DatabaseConnectionException che richiama il costruttore di Exception
 	 * @see Exception#Exception()
 	 */
 	DatabaseConnectionException(){
 		super();
 	}
 	/**
-	 * costruttore di DatabaseException con parametro che richiama il costruttore di Ecxeption
+	 * costruttore di DatabaseException con parametro che richiama il costruttore di Exception
 	 * @param s : stringa da visualizzare a run-time
 	 * @see Exception#Exception(String)
 	 */

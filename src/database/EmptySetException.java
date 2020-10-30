@@ -9,7 +9,7 @@ package database;
 @SuppressWarnings("serial")
 public class EmptySetException extends Exception{
 	/**
-	 * costruttore di EmptySetException che richiama il costruttore di Ecxeption
+	 * costruttore di EmptySetException che richiama il costruttore di Exception
 	 * @see Exception#Exception()
 	 */
 	EmptySetException(){
@@ -17,7 +17,7 @@ public class EmptySetException extends Exception{
 	}
 
 	/**
-	 * costruttore di EmptySetException con parametro che richiama il costruttore di Ecxeption
+	 * costruttore di EmptySetException con parametro che richiama il costruttore di Exception
 	 * @param s : stringa da visualizzare a run-time
 	 * @see Exception#Exception(String)
 	 */

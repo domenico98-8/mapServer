@@ -22,6 +22,9 @@ import tree.RegressionTree;
  * @author Patrizia Conte
  */
 public class ServerOneClient extends Thread{
+	/**
+	 *
+	 */
 	private Socket socket;
 	private ObjectInputStream in;
 	private ObjectOutputStream out;

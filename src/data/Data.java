@@ -136,7 +136,6 @@ public class Data {
 	 * @return (Double)(data[exampleIndex][(data[exampleIndex].length)-1])
 	 */
 	public Double getClassValue(int exampleIndex) {
-		//return (Double)(data[exampleIndex][(data[exampleIndex].length)-1]);
 		return (Double) data.get(exampleIndex).get(classAttribute.getIndex());
 	}
 	
@@ -148,7 +147,6 @@ public class Data {
 	 * @return data[exampleIndex][attributeIndex]
 	 */
 	public Object getExplanatoryValue(int exampleIndex, int attributeIndex) {
-		//return data[exampleIndex][attributeIndex];
 		return data.get(exampleIndex).get(explanatorySet.get(attributeIndex).getIndex());
 	}
 	
@@ -257,8 +255,13 @@ public class Data {
 		return j;
 
 	}
-	/*
-	 * Partiziona il vettore rispetto all'elemento x e restiutisce il punto di separazione
+
+	/**
+	 * Partiziona il vettore rispetto all'elemento x e restituisce il punto di separazione
+	 * @param attribute: attributo continuo da partizionare
+	 * @param inf: indice di inizio
+	 * @param sup: indice di fine
+	 * @return j :punto di separazione
 	 */
 	private  int partition(ContinuousAttribute attribute, int inf, int sup){
 		int i,j;
@@ -293,7 +296,7 @@ public class Data {
 	}
 	
 	
-	/*
+	/**
 	 * Algoritmo quicksort per l'ordinamento di un array di interi 
 	 * usando come relazione d'ordine totale "<="
 	 * @param attribute : attributo da cui ordinare
@@ -324,27 +327,4 @@ public class Data {
 		}
 		
 	}
-	
-
-	
-	//Main
-	/*public static void main(String args[])throws TrainingDataException, SQLException, EmptySetException, DatabaseConnectionException{
-		Data trainingSet=new Data("servo");
-		System.out.println(trainingSet);
-
-		
-		for(int jColumn=0;jColumn<=trainingSet.getNumberOfExplanatoryAttributes();jColumn++)
-		{
-			System.out.println("\nORDER BY "+trainingSet.getExplanatoryAttribute(jColumn));
-			trainingSet.quicksort(trainingSet.getExplanatoryAttribute(jColumn),0 , trainingSet.getNumberOfExamples()-1);
-			System.out.println(trainingSet);
-		}
-		
-
-
-	
-	
-	
-	}*/
-
 }

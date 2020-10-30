@@ -11,20 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc02072b-78ed-425a-a066-3c3ad227e77b" name="Default Changelist" comment="ho eliminato Keyboard.java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/server/ServerOneClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/server/ServerOneClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tree/ContinuousNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/ContinuousNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tree/DiscreteNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/DiscreteNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tree/FileErratoExcpetion.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/FileErratoExcpetion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tree/LeafNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/LeafNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tree/RegressionTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/RegressionTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tree/SplitNode$SplitInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/SplitNode$SplitInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tree/SplitNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/SplitNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/utility/Keyboard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servo.dmp" beforeDir="false" afterPath="$PROJECT_DIR$/servo.dmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/DiscreteAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/DiscreteAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/DatabaseConnectionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/DatabaseConnectionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/EmptySetException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/EmptySetException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/ServerOneClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ServerOneClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/RegressionTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/RegressionTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,63 +240,58 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
-          <line>105</line>
+          <line>108</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
-          <line>106</line>
+          <line>109</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
-          <line>107</line>
+          <line>110</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
-          <line>108</line>
+          <line>111</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
-          <line>118</line>
+          <line>121</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
-          <line>101</line>
+          <line>104</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
-          <line>120</line>
+          <line>123</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
-          <line>127</line>
+          <line>130</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
-          <line>129</line>
+          <line>132</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
-          <line>102</line>
+          <line>105</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
-          <line>116</line>
+          <line>119</line>
           <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/server/ServerOneClient.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

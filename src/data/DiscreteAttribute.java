@@ -28,7 +28,7 @@ public class DiscreteAttribute extends Attribute implements Iterable<String>,Ser
 	}
 	
 	/**
-	 * Metodo che estituisce la cardinalit� del Set Values
+	 * Metodo che estituisce la cardinalita del Set Values
 	 * @return Numero di valori discreti dell'attributo.
 	 */
 	public int getNumberOfDistinctValues(){
